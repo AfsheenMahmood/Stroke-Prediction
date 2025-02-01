@@ -1,0 +1,8 @@
+streamlit
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+matplotlib==3.7.1 
