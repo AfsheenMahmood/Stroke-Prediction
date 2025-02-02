@@ -25,8 +25,7 @@ st.set_page_config(page_title="Stroke Prediction Model Evaluation")
 @st.cache_data
 def load_data():
     url = "https://raw.githubusercontent.com/AfsheenMahmood/Stroke-Prediction/main/stroke%20prediction%20dataset.csv"
-    return pd.read_csv(url)
-
+    return pd.read_csv(url, encoding="utf-8")
 df = load_data()
 
 # Title Section
