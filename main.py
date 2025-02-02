@@ -24,7 +24,7 @@ st.set_page_config(page_title="Stroke Prediction Model Evaluation")
 # Load Data Function with Caching
 @st.cache_data
 def load_data():
-    return pd.read_csv(r"C:\Users\afshe\Desktop\stroke\stroke prediction dataset.csv")  # Ensure correct path
+    return pd.read_csv(rr"https://github.com/AfsheenMahmood/Stroke-Prediction/blob/main/stroke%20prediction%20dataset.csv")  # Ensure correct path
 
 df = load_data()
 
